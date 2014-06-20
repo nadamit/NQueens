@@ -89,15 +89,6 @@ public class NQueens {
         return true;
     }
     
-    public static void print() {
-        
-        for (int i = 0; i < NumberOfqueens; i++) {
-            for (int j = 0; j < NumberOfqueens; j++) {
-                System.out.print(chessboard[i][j] + " ");
-            }
-            System.out.println(" ");
-        }
-    }
     
     public static void main(String args[]) {
         Scanner kbd = new Scanner(System.in);
